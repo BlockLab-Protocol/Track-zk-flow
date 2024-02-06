@@ -84,8 +84,8 @@ const ProtocolsCard: FC<ProtocolsCardProps> = ({ address, transactions }) => {
             Here is the list of protocols used by this address.
           </p>
           <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
-            Note that it is the first version of zkFlow. If you find an issue, don't hesitate to report it to me on
-            twitter (@ByFishh).
+            Note that it is the first version of blocklab zk-activity-tracker. If you find an issue, don't hesitate to report it to me on
+            twitter (@blocklabprotocol).
           </p>
         </caption>
         <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">

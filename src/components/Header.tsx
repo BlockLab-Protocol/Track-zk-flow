@@ -26,7 +26,7 @@ const Header: FC<HeaderProps> = ({ hasSearchBar }) => {
       <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4">
         <a className="flex items-center bg" href="/zk-flow/">
           <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="Flowbite Logo" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">zkFlow</span>
+          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">COMMUNITY ZK-ACTIVITY-TRACKER</span>
         </a>
         {hasSearchBar && (
           <div className="flex md:order-2">
@@ -105,28 +105,28 @@ const Header: FC<HeaderProps> = ({ hasSearchBar }) => {
               </span>
               <div>
                 <div>
-                  <span>If you want to tip me a beer for my work (or make one more transaction) you can on</span>
+                  <span>Support our work today (Hold our NFT) you can on</span>
                   <span
                     onClick={() =>
                       window.open(
-                        'https://explorer.zksync.io/address/0xF859dE92A63070C54d05E33a4e99D707a34FDb12',
+                        'https://explorer.zksync.io/address/0x9b7364DE7BdF2c60bf34c5663f5d31CE48112933',
                         '_blank',
                       )
                     }
                     className="text-white font-bold whitespace-pre-wrap cursor-pointer"
                   >
                     {' '}
-                    0xF859dE92A63070C54d05E33a4e99D707a34FDb12
+                    0x9b7364DE7BdF2c60bf34c5663f5d31CE48112933
                   </span>
                 </div>
                 <div>
-                  <span>You can also support me by using my referral code on goal3:</span>
+                  <span>You can also support us by using my referral code on Zetachain:</span>
                   <span
-                    onClick={() => window.open('https://beta.goal3.xyz?r=zkflow', '_blank')}
+                    onClick={() => window.open('https://shorturl.at/dryHZ', '_blank')}
                     className="text-white font-bold whitespace-pre-wrap cursor-pointer"
                   >
                     {' '}
-                    zkflow
+                    zk-activity-track
                   </span>
                 </div>
               </div>

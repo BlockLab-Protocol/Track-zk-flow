@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-empty-function */
 import { createContext } from 'react';
 import { ProtocolState } from '../components/ProtocolsCard';
 import { Token } from '../services/explorer';
